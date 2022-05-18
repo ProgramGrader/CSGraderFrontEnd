@@ -12,7 +12,8 @@
     "build-storybook": "build-storybook",
     "update-browserlist": "npx browserslist@latest --update-db",
     "cypress": "cypress open",
-    "e2e": "cypress open --browser chrome"
+    "e2e": "cypress open --browser chrome",
+    "test": "jest --watch"
   },
   "resolutions": {
     "webpack": "^5"

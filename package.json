@@ -27,8 +27,8 @@
     "nonGlobalStepDefinitions": true
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.22.0",
-    "@typescript-eslint/parser": "^5.22.0",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
     "caniuse-lite": "^1.0.30001338",
     "cypress": "^9.6.1",
     "emotion": "^11.0.0",

@@ -1,5 +1,5 @@
-import styles from "./BaseTemplate.module.css";
-import React from "react";
+import styles from './BaseTemplate.module.css';
+import React from 'react';
 
 export interface IBaseTemplate {
     sampleTextProp: string;

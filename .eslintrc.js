@@ -6,8 +6,10 @@ module.exports = {
   "extends": [
       "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:react/recommended", "next",
-    "next/core-web-vitals", "prettier",
+    "plugin:react/recommended",
+    "next",
+    "next/core-web-vitals",
+    "prettier",
     "plugin:storybook/recommended",
     "plugin:react-hooks/recommended"
   ],
@@ -80,11 +82,11 @@ module.exports = {
     "@typescript-eslint/consistent-type-assertions": "error",
     "@typescript-eslint/consistent-type-definitions": "off",
     "@typescript-eslint/dot-notation": "off",
-    "@typescript-eslint/explicit-function-return-type": "error",
+    "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-member-accessibility": ["off", {
       "accessibility": "explicit"
     }],
-    "@typescript-eslint/explicit-module-boundary-types": "error",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/member-delimiter-style": ["error", {
       "multiline": {
         "delimiter": "semi",
@@ -250,7 +252,7 @@ module.exports = {
       "prev": "*",
       "next": "return"
     }],
-    "prefer-arrow/prefer-arrow-functions": "error",
+    "prefer-arrow/prefer-arrow-functions": "off",
     "prefer-const": "error",
     "prefer-template": "error",
     "radix": "error",
@@ -283,32 +285,17 @@ module.exports = {
     "react/require-render-return": "error",
     "react/self-closing-comp": "error",
     "require-yield": "error",
+    "@typescript-eslint/await-thenable": "off",
     "semi": "error",
     "spaced-comment": ["error", "always", {
       "markers": ["/"]
     }],
     "use-isnan": "error",
-    "valid-typeof": "off",
-    "@typescript-eslint/tslint/config": ["error", {
-      "rules": {
-        "jsx-no-string-ref": true
-      }
-    }]
+    "valid-typeof": "off"
   },
   "settings": {
     "react": {
       "version": "detect"
-    },
-    "import/parsers": {
-      "C:\\temp\\nextTest\\next-test\\node_modules\\@typescript-eslint\\parser\\dist\\index.js": [".ts", ".tsx", ".d.ts"]
-    },
-    "import/resolver": {
-      "C:\\temp\\nextTest\\next-test\\node_modules\\eslint-import-resolver-node\\index.js": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
-      },
-      "C:\\temp\\nextTest\\next-test\\node_modules\\eslint-import-resolver-typescript\\lib\\index.cjs": {
-        "alwaysTryTypes": true
-      }
     }
   },
 

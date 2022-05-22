@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Button } from './Button';
+// eslint-disable-next-line import/no-unassigned-import
 import './header.css';
 
 type User = {

@@ -32,7 +32,7 @@
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
     "caniuse-lite": "^1.0.30001338",
-    "cypress": "^9.6.1",
+    "cypress": "10.2.0",
     "emotion": "^11.0.0",
     "eslint-plugin-import": "^2.26.0",
     "next": "^12.1.6",

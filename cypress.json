@@ -3,7 +3,12 @@
   "projectId": "cicsm2",
   "testFiles": ["./**/*spec*.ts", "**/*.{feature,features}"],
   "experimentalFetchPolyfill": true,
-  "ignoreTestFiles": ["**/__snapshots__/*", "**/__image_snapshots__/*"],
+  "ignoreTestFiles": [
+    "**/__snapshots__/*",
+    "**/__image_snapshots__/*",
+    "**/1-getting-started/*.js",
+    "**/2-advanced-examples/*.js"
+  ],
   "env": {
     "selectedLocale": "en"
   }

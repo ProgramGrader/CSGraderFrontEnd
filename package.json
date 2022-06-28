@@ -37,7 +37,7 @@
     "cypress": "10.2.0",
     "emotion": "^11.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "next": "^12.1.6",
+    "next": "^12.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tslint-react": "^5.0.0"

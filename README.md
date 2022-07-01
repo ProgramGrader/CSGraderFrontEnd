@@ -2,7 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+### Installing Tools
+To run this project you will first need to install the following in this order:
+1. [Windows nvm](https://github.com/coreybutler/nvm-windows) or [Mac/Linux nvm](https://github.com/nvm-sh/nvm)
+2. Use nvm to install the latest version defined in the package.json file
+3. [Install yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
+
+### Running the system
+To run the development server:
 
 ```bash
 yarn dev
@@ -22,8 +29,6 @@ To add a package run:
 ```bash
 yarn add <package Name>
 ```
-
-
 
 ## Design Libraries
 https://feathericons.com/

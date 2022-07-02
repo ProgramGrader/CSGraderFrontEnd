@@ -13,7 +13,8 @@
     "update-browserlist": "npx browserslist@latest --update-db",
     "cypress": "cypress open",
     "e2e": "cypress open --browser chrome",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "report": "npm run build --withReport true"
   },
   "resolutions": {
     "webpack": "^5"
@@ -57,6 +58,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",
+    "@next/bundle-analyzer": "^12.2.0",
     "@storybook/addon-actions": "^6.5.9",
     "@storybook/addon-essentials": "^6.5.9",
     "@storybook/addon-interactions": "^6.5.9",

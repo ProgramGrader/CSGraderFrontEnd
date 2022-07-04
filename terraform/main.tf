@@ -17,7 +17,7 @@ terraform {
 
   backend "s3" {
     bucket = "tfstate-3ea6z45i"
-    key    = "assignmentZip/key"
+    key    = "webapp/key"
     region = "us-east-2"
     dynamodb_table = "app-state"
   }

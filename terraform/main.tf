@@ -26,7 +26,7 @@ terraform {
 locals {
   shared_tags = {
     Terraform = "true"
-    Project = "AssignmentFileMS"
+    Project = "CsgraderFrontend"
   }
 }
 

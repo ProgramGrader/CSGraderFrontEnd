@@ -14,7 +14,8 @@
     "cypress": "cypress open",
     "e2e": "cypress open --browser chrome",
     "test": "jest --watch",
-    "report": "npm run build --withReport true"
+    "report": "npm run build --withReport true",
+    "build:next": "next build && next export -o webDist/"
   },
   "resolutions": {
     "webpack": "^5"

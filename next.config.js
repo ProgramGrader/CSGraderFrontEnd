@@ -6,7 +6,10 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
   },
-  enabled: process.env.ANALYZE === 'true'
+  enabled: process.env.ANALYZE === 'true',
+  images: {
+    unoptimized: true
+  }
 }
 
 module.exports = nextConfig

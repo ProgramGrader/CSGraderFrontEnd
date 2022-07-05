@@ -7,8 +7,10 @@ const nextConfig = {
     includePaths: [path.join(__dirname, 'styles')]
   },
   enabled: process.env.ANALYZE === 'true',
-  images: {
-    unoptimized: true
+  experimental: {
+    images: {
+      unoptimized: true
+    }
   }
 }
 

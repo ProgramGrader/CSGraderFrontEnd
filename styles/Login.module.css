@@ -90,7 +90,7 @@
   margin: auto;
   margin-top: 100px;
   border-radius: 10px;
-  background: rgb(240, 240, 240, 0.45);
+  background: rgb(240, 240, 240, 0.4);
   backdrop-filter: blur(5px);
   display: flex;
   align-items: center;
@@ -220,7 +220,10 @@
 
 .textInputUser
 {
-  background-color: rgb(255, 255, 255, 0.7);
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 0.1s;
+  background-color: rgb(255, 255, 255, 0.5);
   border: solid;
   width: 172px;
   border-width: 0px;
@@ -231,11 +234,15 @@
 
 .textInputUser:focus
 {
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 0.1s;
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   animation-name: loginInputAnimation;
   animation-duration: 0.1s;
 }
+
 
 @keyframes loginInputAnimation {
   0% 

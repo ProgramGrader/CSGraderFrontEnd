@@ -78,34 +78,37 @@
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-.textInputUser
-{
-  margin: auto;
-
-}
-
-
-.gridContainerMain
+.loginGrid
 {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 30% 30% 20% 20%;
-  margin-top:-100px;
-  gap:10%;
+  grid-template-rows: 35% 35% 15% 15%;
+  margin-top: -60px;
 }
 
-.grid {
+.loginContainer {
   margin: auto;
   margin-top: 100px;
   border-radius: 10px;
-  background: rgb(250, 248, 248);
+  background: rgb(240, 240, 240, 0.45);
+  backdrop-filter: blur(5px);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 250px;
-  height: 280px;
+  width: 200px;
+  height: 250px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.loginTitle
+{
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 15px;
+  color: rgb(54, 54, 54);
 }
 
 .card {
@@ -120,47 +123,132 @@
   max-width: 300px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
 .githubButton
 {
   display:inline-flex; 
   align-items:center; 
-  height:25px;
+  height:28px;
+  width: 172px;
   background-color:#24292e; 
   font-family:'Roboto',sans-serif;
   font-size:14px; color:white;
   text-decoration:none;
   padding:8px 12px 8px 0px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
-.loginButton
+.githubButton:hover
 {
-  margin: auto;
-  width: 170px;
+  display:inline-flex; 
+  align-items:center; 
+  height:28px;
+  width: 172px;
+  background-color:#404a53; 
+  font-family:'Roboto',sans-serif;
+  font-size:14px; color:white;
+  text-decoration:none;
+  padding:8px 12px 8px 0px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  animation-name: githubButtonAnimation;
+  animation-duration: 0.1s;
 }
-   
+
+@keyframes githubButtonAnimation {
+  0% 
+  {
+    background-color:#24292e; 
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+
+  100% 
+  {
+    background-color:#404a53; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+
+.passwordlessButton
+{
+  display:inline-flex; 
+  align-items: center;
+  justify-content: center;
+  height:28px;
+  width: 172px;
+  background-color:#3498DB; 
+  font-family:'Roboto',sans-serif;
+  font-size:14px; color:white;
+  text-decoration:none;
+  padding:8px 12px 8px 0px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.passwordlessButton:hover
+{
+  display:inline-flex; 
+  align-items: center;
+  justify-content: center;
+  height:28px;
+  width: 172px;
+  background-color:#3ab0ff; 
+  font-family:'Roboto',sans-serif;
+  font-size:14px; 
+  color:white;
+  text-decoration:none;
+  padding:8px 12px 8px 0px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  animation-name: passwordlessButtonAnimation;
+  animation-duration: 0.1s;
+}
+
+@keyframes passwordlessButtonAnimation {
+  0% 
+  {
+    background-color:#3498DB; 
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+
+  100% 
+  {
+    background-color:#3ab0ff; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+
+.textInputUser
+{
+  background-color: rgb(255, 255, 255, 0.7);
+  border: solid;
+  width: 172px;
+  border-width: 0px;
+  height: 25px;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.textInputUser:focus
+{
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  animation-name: loginInputAnimation;
+  animation-duration: 0.1s;
+}
+
+@keyframes loginInputAnimation {
+  0% 
+  {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+
+  100% 
+  {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+
 
 @media (max-width: 600px) {
   .grid {

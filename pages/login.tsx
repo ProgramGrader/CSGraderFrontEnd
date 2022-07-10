@@ -9,11 +9,11 @@ const uiConfig = {
     // Popup signin flow rather than redirect flow.
     signInFlow: 'popup',
     // Redirect to /signedIn after sign in is successful. Alternatively you can provide a callbacks.signInSuccess function.
-    signInSuccessUrl: '/test',
+    signInSuccessUrl: '/test'
     // We will display Google and Facebook as auth providers.
-    signInOptions: [
-        firebase.auth.GithubAuthProvider.PROVIDER_ID
-    ]
+    // signInOptions: [
+    //     firebase.auth.GithubAuthProvider.PROVIDER_ID
+    // ]
 };
 
 function login() {
@@ -21,7 +21,6 @@ function login() {
         <div>
             <h1>My App</h1>
             <p>Please sign-in:</p>
-            <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} />
         </div>
     );
 }

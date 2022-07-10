@@ -3,7 +3,7 @@ import * as firebaseui from 'firebaseui';
 // import * as firebaseuicss from 'firebaseui/dist/firebaseui.css';
 import clientApp from './clientApp';
 
-const ui = new firebaseui.auth.AuthUI(getAuth(clientApp));
+const ui = new firebaseui.auth.AuthUI(getAuth(clientApp.app));
 
 
 const actionCodeSettings = {

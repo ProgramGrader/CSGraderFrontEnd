@@ -4,7 +4,10 @@ require('@next/bundle-analyzer')
 const nextConfig = {
   webpack: (config) => {
     // this will override the experiments
-    config.experiments = { topLevelAwait: true };
+    config.experiments = {
+      layers: true,
+      topLevelAwait: true
+    };
     // this will just update topLevelAwait property of config.experiments
     // config.experiments.topLevelAwait = true
     return config;

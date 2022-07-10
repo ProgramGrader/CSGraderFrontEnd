@@ -1,8 +1,5 @@
 import * as firebase from 'firebase/app';
 import { getAnalytics, isSupported } from 'firebase/analytics';
-import { getRemoteConfig } from 'firebase/remote-config';
-import { getPerformance } from 'firebase/performance';
-import {func} from "prop-types";
 
 const appName = 'csgrader';
 
@@ -50,4 +47,5 @@ if (app.name && typeof window !== 'undefined' &&  analyticsSupported ) {
 // Initialize Performance Monitoring and get a reference to the service
 // getPerformance(app);
 
-export {analytics,  remoteConfig, performance};
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {analytics, app,  remoteConfig, performance};

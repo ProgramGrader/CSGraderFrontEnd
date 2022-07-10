@@ -1,9 +1,21 @@
-// eslint-disable-next-line import/no-unassigned-import
-import '../styles/globals.css';
-import type { AppProps } from 'next/app';
+import { AppProps } from 'next/app';
+import Head from 'next/head';
+import React, { useEffect } from 'react';
+import Script from 'next/script';
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+
+function CustomApp({ Component, pageProps, router }: AppProps) {
+
+  return (
+    <div>
+        <Head>
+          <title>Welcome!</title>
+          <meta name="viewport" content="initial-scale=1, width=device-width" />
+        </Head>
+
+        <Component {...pageProps} />
+    </div>
+  );
 }
 
-export default MyApp;
+export default CustomApp;

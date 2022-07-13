@@ -8,8 +8,8 @@ To run this project you will first need to install the following in this order:
 2. Use nvm to install the latest version defined in the package.json file
    1. Nvm install lts 
    2. Nvm use lts
-3. [Install yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
-4. Run ``` yarn install```
+3. [Install yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) through an installer and not npm
+4. Run ```yarn install```
 
 ### Running the system
 To run the development server:

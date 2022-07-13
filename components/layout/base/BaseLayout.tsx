@@ -10,7 +10,7 @@ const PrimaryLayout: FC<IPrimaryLayout> = ({ children }) => {
     return (
         <>
             <Head>
-                <title>Primary Layout Example</title>
+                <title>Primary Layout Example Test</title>
             </Head>
             <main className={styles.main}>{children}</main>
         </>

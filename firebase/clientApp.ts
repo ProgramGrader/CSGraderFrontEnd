@@ -5,7 +5,8 @@ const appName = 'csgrader';
 
 let app: firebase.FirebaseApp;
 
-if (firebase.getApps().length > 0) {
+if (firebase.getApps().length > 0) 
+{
     app = firebase.getApp(appName);
 } else {
     app = firebase.initializeApp({

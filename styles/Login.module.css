@@ -82,8 +82,7 @@
 {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 35% 35% 15% 15%;
-  margin-top: -60px;
+  grid-template-rows: 20% 80%;
 }
 
 .loginContainer {
@@ -96,8 +95,8 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 200px;
-  height: 250px;
+  width: 280px;
+  height: 320px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }

@@ -12,7 +12,7 @@ const nextConfig = {
     // config.experiments.topLevelAwait = true
     return config;
   },
-  reactStrictMode: true,
+  reactStrictMode: false,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
   },

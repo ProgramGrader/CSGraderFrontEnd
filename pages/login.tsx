@@ -2,8 +2,8 @@
 import Head from 'next/head';
 import styles from '../styles/Login.module.css';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
-import {getAuth, GithubAuthProvider, EmailAuthProvider} from 'firebase/auth'
-import {app} from '../firebase/clientApp'
+import {getAuth, GithubAuthProvider, EmailAuthProvider} from 'firebase/auth';
+import {app} from '../firebase/clientApp';
 
 
 const auth=getAuth(app);
@@ -17,8 +17,8 @@ const uiConfig = {
     // We will display Google and Facebook as auth providers.
     signInOptions: [
         GithubAuthProvider.PROVIDER_ID,
-        EmailAuthProvider.EMAIL_LINK_SIGN_IN_METHOD,
-    ],
+        EmailAuthProvider.EMAIL_LINK_SIGN_IN_METHOD
+    ]
 };
 
 function login() {

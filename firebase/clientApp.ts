@@ -20,6 +20,7 @@ if (firebase.getApps().length > 0)
     },
         appName
     );
+
 }
 
 // export that instead of 'firebase'

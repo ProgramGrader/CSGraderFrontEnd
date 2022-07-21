@@ -14018,6 +14018,11 @@ yup@^0.32.11:
     property-expr "^2.0.4"
     toposort "^2.0.2"
 
+zod@^3.17.9:
+  version "3.17.9"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.17.9.tgz#6ce737474e51677e7166602ed58f6f8ba8d89c86"
+  integrity sha512-QF1843pYoRk1jFP+/UiEySXaTSiIyFod3KyDzoO3qHKGZdX7z7RNXI4lEsiibvpnIZQwcDVU58ZrxP4pQ7BmTQ==
+
 zwitch@^1.0.0:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/zwitch/-/zwitch-1.0.5.tgz#d11d7381ffed16b742f6af7b3f223d5cd9fe9920"

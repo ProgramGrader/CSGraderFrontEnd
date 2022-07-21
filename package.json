@@ -53,6 +53,7 @@
     "feather-icons": "^4.29.0",
     "firebase": "^9.9.0",
     "firebaseui": "^6.0.1",
+    "framer-motion": "^6.5.1",
     "next": "^12.2.0",
     "next-optimized-images": "^2.6.2",
     "nextjs-google-analytics": "^1.2.1",

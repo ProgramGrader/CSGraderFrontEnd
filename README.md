@@ -34,8 +34,13 @@ yarn add <package Name>
 ```
 
 ## Design Libraries
+
+### Components 
 https://feathericons.com/
 https://mantine.dev/getting-started/
+
+### Animation Library
+https://www.framer.com/docs/introduction/#overview
 
 ## Learn More
 
